@@ -168,6 +168,7 @@ a {
     align-items: center;
     padding: 30px;
     gap: 30px;
+    margin: 30px;
 }
 .box .title {
     font-size: 22px;
