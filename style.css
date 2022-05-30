@@ -1,13 +1,12 @@
 * {
-    border: 1px solid white;
+/*    border: 1px solid white; */
 }
 body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, 
-    url(./images/cyberspace.jpg) no-repeat center center fixed;   
     background-color: black;
+    background: url(./images/cyberspace.jpg) no-repeat center center fixed;   
     background-size: cover;
     color: white;
     margin: 0;
@@ -16,6 +15,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    margin: 10px;
 }
 .header .left {
     font-size: 32px;
@@ -32,6 +32,7 @@ body {
     padding: 0;
     height: 100vh;
     flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%)
 }
 .hero .left {
     display: flex;
@@ -130,12 +131,11 @@ a {
 .message {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, 
-    url(./images/cyberspace-invert.jpg) no-repeat center center fixed;
-    background-size: cover;   
+    background: linear-gradient(rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0));
     min-height: 300px;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 .quote, .author {
     display: flex;
@@ -160,12 +160,14 @@ a {
 }
 .box {
     display: flex;
-    background-color: rgb(25, 17, 24);
+    background-color: rgba(25, 17, 24, 0.845);
     width: 80vh;
     height: 100px;
     border-radius: 4px;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
+    gap: 30px;
 }
 .box .title {
     font-size: 22px;
